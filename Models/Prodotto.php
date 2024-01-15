@@ -1,16 +1,20 @@
 <?php
 
+require_once __DIR__ . '/Categoria.php';
+
 class prodotto
 {
     public $name;
     public $price;
     public $src;
+    public $categoria;
 
-    public function __construct($name, $price, $src)
+    public function __construct($name, $price, $src, Categoria $categoria)
     {
         $this->name = $name;
         $this->price = $price;
         $this->src = $src;
+        $this->categoria = $categoria;
         
     }
 
