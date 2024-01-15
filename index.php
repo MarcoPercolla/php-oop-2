@@ -17,6 +17,7 @@ require_once __DIR__ . '/Data.php';?>
                 <img class="productImage" src="<?= $prodotto->src?>" alt="">
                 <h2><?= $prodotto->name?></h2>
                 <p><?= $prodotto->price?></p>
+                <h6><?=get_class($prodotto)?></h6>
                 <h3>categoria </h3>
                 <p>razza consigliata:<?= $prodotto->categoria->razza?></p>
                 <p>stazza consigliata:<?= $prodotto->categoria->stazza?></p>

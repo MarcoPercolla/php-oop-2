@@ -14,7 +14,7 @@ $prodotti = [
     new Prodotto(
         "osso",
         "6$", 
-        "https://labottegadelpet.it/wp-content/uploads/2020/11/83489.jpg",
+        "https://www.fordogtrainers.it/images/osso-per-cane-nuovo-giocattolo-TT105-big.jpg",
         new Categoria("cane","m","adulto"),
     ),
 ];
