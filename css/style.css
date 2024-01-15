@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    background-color: #222222;
+    margin: 10vh auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card {
+
+    width: 20vw;
+    padding: 1rem;
+    background-color: rgb(73, 87, 99);
+    border-radius: 0.4rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.productImage {
+    width: 100%;
+    border-radius: 0.5rem;
+}
