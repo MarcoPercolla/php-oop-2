@@ -6,26 +6,28 @@
 
 body {
     font-family: sans-serif;
+    background-color: #222222;
 }
 
 .container {
     width: 80%;
-    height: 80vh;
-    background-color: #222222;
-    margin: 10vh auto;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
 .card {
-    height: 80%;
 
-    width: 20vw;
+
+
+    width: 30%;
     padding: 1rem;
     background-color: rgb(73, 87, 99);
     border-radius: 0.4rem;
+    margin: 0.5rem;
 }
 
 h2 {
@@ -35,5 +37,6 @@ h2 {
 
 .productImage {
     width: 100%;
+    aspect-ratio: 1/1;
     border-radius: 0.5rem;
 }
