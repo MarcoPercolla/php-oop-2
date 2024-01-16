@@ -20,8 +20,6 @@ require_once __DIR__ . '/Data.php';?>
                 <h6><?=get_class($prodotto)?></h6>
                 <h3>categoria </h3>
                 <p>razza consigliata:<?= $prodotto->categoria->razza?></p>
-                <p>stazza consigliata:<?= $prodotto->categoria->stazza?></p>
-                <p>età consigliata:<?= $prodotto->categoria->eta?></p>
                 <p><?= (isset($prodotto->materiale)) ? "(" . $prodotto->materiale . ")" : "" ?></p>
                 <p><?= (isset($prodotto->tipologia)) ? "(" . $prodotto->tipologia . ")" : "" ?></p>
 

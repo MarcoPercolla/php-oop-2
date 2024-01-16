@@ -2,12 +2,15 @@
 require_once __DIR__ . '/Models/Gioco.php';
 require_once __DIR__ . '/Models/Cibo.php';
 
+$cane = new Categoria("Cane");
+$gatto = new Categoria("Gatto");
+
 $prodotti = [
     new Gioco(
         "palla",
         "4$", 
         "https://labottegadelpet.it/wp-content/uploads/2020/11/83489.jpg",
-        new Categoria("cane","tutte","tutte"),
+        $gatto,
         "silicone",
         "masticazione",
         
@@ -17,7 +20,7 @@ $prodotti = [
         "osso",
         "6$", 
         "https://www.fordogtrainers.it/images/osso-per-cane-nuovo-giocattolo-TT105-big.jpg",
-        new Categoria("cane","m","adulto"),
+        $cane,
     ),
 ];
 
