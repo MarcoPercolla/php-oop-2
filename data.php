@@ -8,6 +8,8 @@ $prodotti = [
         "4$", 
         "https://labottegadelpet.it/wp-content/uploads/2020/11/83489.jpg",
         new Categoria("cane","tutte","tutte"),
+        "silicone",
+        "masticazione",
         
         
     ),
@@ -19,5 +21,3 @@ $prodotti = [
     ),
 ];
 
-$prodotti[0]->materiale = "silicone";
-$prodotti[0]->tipologia = "masticazione";

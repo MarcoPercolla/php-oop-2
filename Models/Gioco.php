@@ -8,4 +8,11 @@ class Gioco extends Prodotto
     public $materiale;
     // peluche, masticazione, rumoroso
     public $tipologia;
+
+    public function __construct($name, $price, $src, Categoria $categoria,$materiale,$tipologia)
+    {
+        parent::__construct($name, $price,$src,$categoria);
+        $this->materiale = $materiale;
+        $this->tipologia = $tipologia;
+    }
 }
