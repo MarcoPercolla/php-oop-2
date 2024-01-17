@@ -9,7 +9,10 @@ require_once __DIR__ . '/Data.php';?>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+<h3><?="utente corrente:".$UtenteCorrente->name?></h3>
+<h3><?=(isset($UtenteCorrente->sconto)) ? "Utente Registrato" : "Utente ospite"?></h3>
     <div class="container">
+        
         <?php foreach ($prodotti as $prodotto) { ?>
             
             <div class="card">
