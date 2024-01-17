@@ -40,3 +40,11 @@ h2 {
     aspect-ratio: 1/1;
     border-radius: 0.5rem;
 }
+
+h6 {
+    background-color: rgb(139, 27, 14);
+    padding: 0.1rem;
+    margin: 0.1rem 0;
+    width: fit-content;
+    border-radius: 0.3rem;
+}
